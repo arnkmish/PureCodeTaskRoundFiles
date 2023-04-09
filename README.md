@@ -18,7 +18,7 @@ Dataset 3: PRCD_Dataset3.ipynb
 
 - Testing: The testing and visualization can be performed using the code block identified with the comment "Visualize INFERENCE Results". Using this block of code both the correct and predicted captions can be observed along with the input image for all samples present in the test set. Further evaluation of performance can be performed using the subsequent blocks identified with the section "EVALUATE PREDICTIONS VIA ROUGE SCORES", where ROUGE-1,2, and L metrics are considered to observe the Precision, Recall and F1-Score on the test set.
 
-- The following are the test set results on all the three datasets in terms of ROUGE-1, 2, and L metrics:
+- Result Comparison Across Dataset: The following are the test set results on all the three datasets in terms of ROUGE-1, 2, and L metrics:
 
 ![ROUGE-1 Evaluation Results](https://user-images.githubusercontent.com/8967554/230759477-e747d0fb-0eb4-45c6-a3d7-0495e8de572e.png)
 ![ROUGE-2 Evaluation Results](https://user-images.githubusercontent.com/8967554/230759526-5e1697dc-0aeb-4f18-8035-5cd034ffe79c.png)
