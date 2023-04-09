@@ -1,5 +1,9 @@
 # PureCode Task Round Files
 
+**TASK 1**
+
+The Task 1 data description can be found in the repository file: PureCode_TaskRound_Task1.pdf
+
 **TASK 2**
 
 **Approach:** CNN-LSTM Based Image Captioning Model Trained for 100 Epochs with No Validation
