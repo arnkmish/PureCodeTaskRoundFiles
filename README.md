@@ -4,7 +4,7 @@
 
 - Train-Test Split: Randomly split into 90% training data and 10% testing data resulting in 270 samples for training and 30 samples for testing for each dataset.
 
-- Model Architecture: A CNN-LSTM based image captioning model is used with ResNet50 based Encoder CNN and LSTM based Decoder RNN. The ResNet50 architecture is mostly frozen(with ImageNet-1k weights) except for the FC layer weights and biases. This is done because the number of samples that we have is quite less and the pretrained model will be able to extract decent complex visual features. The FC layers and the complete Decoder RNN is trained for 100 epochs in order to arrive at the trained model.
+- Model Architecture: A CNN-LSTM based image captioning model is used with ResNet50 based Encoder CNN and LSTM based Decoder RNN. The ResNet50 architecture is mostly frozen(with ImageNet-1k weights) except for the FC layer weights and biases. This is done because the number of samples that we have is quite less and the pretrained model will be able to extract decent complex visual features. The FC layers and the complete Decoder RNN is trained for 100 epochs in order to arrive at the trained model. The reason for choosing this architecture is purely for the purpose of learning. As I do not have much experience with the image captioning problem, I felt that I should go through a from scratch implementation of a simple Encoder-Decoder based network and see how it actually does on this particulra task.
 
 - Implementation Environment: The entire implementation is done in the freely available GPU based environment of Google Colab. The package details: PyTorch(2.0.0+cu118), Torchvision(0.15.1+cu118), Pillow(8.4.0), Scikit-Learn(1.2.2), Pandas(1.4.4), Numpy(1.22.4), Spacy(3.5.1).
 
