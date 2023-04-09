@@ -1,5 +1,7 @@
 # PureCode Task Round Files
 
+**TASK 2**
+
 **Approach:** CNN-LSTM Based Image Captioning Model Trained for 100 Epochs with No Validation
 
 - Train-Test Split: Randomly split into 90% training data and 10% testing data resulting in 270 samples for training and 30 samples for testing for each dataset.
