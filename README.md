@@ -2,8 +2,6 @@
 
 The following are the test set results on all the three datasets in terms of ROUGE-1, 2, and L metrics:
 
-![ROUGE-1 Results](ROUGE-1%20Evaluation%20Results.png)
-![Rouge-2 Results](ROUGE-2%20Evaluation%20Results.png)
-![ROUGE-L Results](ROUGE-L%20Evaluation%20Results.png)
+![ROUGE-1 Evaluation Results](https://user-images.githubusercontent.com/8967554/230759477-e747d0fb-0eb4-45c6-a3d7-0495e8de572e.png)
 
 Trained model checkpoints are available for download at: https://drive.google.com/drive/folders/1MHM6iHPajY5jKQyYwlWuMxzvBoJ-8nij?usp=sharing
