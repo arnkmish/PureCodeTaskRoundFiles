@@ -11,7 +11,9 @@
 - Training: Since the all the code is submitted as iPython Notebook files, the model training is performed using the train() function present in the Notebook files for each of the dataset. For all the three datasets, separate Notebooks have been created as mentioned below:
 
 Dataset 1: PRCD_Dataset1.ipynb
+
 Dataset 2: PRCD_Dataset2.ipynb
+
 Dataset 3: PRCD_Dataset3.ipynb
 
 - Testing: The testing and visualization can be performed using the code block identified with the comment "Visualize INFERENCE Results". Using this block of code both the correct and predicted captions can be observed along with the input image for all samples present in the test set. Further evaluation of performance can be performed using the subsequent blocks identified with the section "EVALUATE PREDICTIONS VIA ROUGE SCORES", where ROUGE-1,2, and L metrics are considered to observe the Precision, Recall and F1-Score on the test set.
